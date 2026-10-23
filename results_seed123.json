@@ -1,0 +1,315 @@
+{
+  "seed": 123,
+  "attribution": {
+    "events": 37552,
+    "true_total_usd": 339927.78774500266,
+    "engine_total_usd": 339927.78774500266,
+    "engine_total_err_pct": 0,
+    "naive_total_usd": 362683.5216000013,
+    "naive_total_err_pct": 6.6942846908617275,
+    "worst_slice": {
+      "slice": "tenant×endpoint=umbrella /v1/summarize",
+      "true_usd": 1106.284080000001,
+      "attributed_usd": 1106.2840800000015,
+      "abs_err_pct": 4.110583882635857e-14
+    },
+    "slices": [
+      {
+        "slice": "tenant×endpoint=umbrella /v1/summarize",
+        "true_usd": 1106.284080000001,
+        "attributed_usd": 1106.2840800000015,
+        "abs_err_pct": 4.110583882635857e-14
+      },
+      {
+        "slice": "tenant×endpoint=initech /v1/summarize",
+        "true_usd": 1518.4474400000008,
+        "attributed_usd": 1518.4474400000013,
+        "abs_err_pct": 2.994817857419311e-14
+      },
+      {
+        "slice": "tenant×endpoint=globex /v1/summarize",
+        "true_usd": 1986.3897400000003,
+        "attributed_usd": 1986.3897400000008,
+        "abs_err_pct": 2.2893158463779824e-14
+      },
+      {
+        "slice": "endpoint=/v1/chat",
+        "true_usd": 171228.24921999883,
+        "attributed_usd": 171228.24921999883,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "tenant=umbrella",
+        "true_usd": 53269.76334500003,
+        "attributed_usd": 53269.76334500003,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "tenant×endpoint=initech /v1/rag",
+        "true_usd": 34218.41902000002,
+        "attributed_usd": 34218.41902000002,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "tenant×endpoint=umbrella /v1/rag",
+        "true_usd": 24996.72144000004,
+        "attributed_usd": 24996.72144000004,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "tenant×endpoint=acme /v1/chat",
+        "true_usd": 60151.79088500004,
+        "attributed_usd": 60151.79088500004,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "model=atlas-2",
+        "true_usd": 1986.079774999999,
+        "attributed_usd": 1986.079774999999,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "tenant×endpoint=acme /v1/summarize",
+        "true_usd": 2646.2085999999954,
+        "attributed_usd": 2646.2085999999954,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "tenant=globex",
+        "true_usd": 95203.09897000044,
+        "attributed_usd": 95203.09897000044,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "model=atlas-1",
+        "true_usd": 318633.7496700026,
+        "attributed_usd": 318633.7496700026,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "tenant×endpoint=acme /v1/rag",
+        "true_usd": 56996.54613499989,
+        "attributed_usd": 56996.54613499989,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "endpoint=/v1/summarize",
+        "true_usd": 7257.32986,
+        "attributed_usd": 7257.32986,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "tenant=initech",
+        "true_usd": 71660.37981000014,
+        "attributed_usd": 71660.37981000014,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "tenant=acme",
+        "true_usd": 119794.54561999995,
+        "attributed_usd": 119794.54561999995,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "model=atlas-1-mini",
+        "true_usd": 19307.95830000003,
+        "attributed_usd": 19307.95830000003,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "endpoint=/v1/rag",
+        "true_usd": 161442.20866499972,
+        "attributed_usd": 161442.20866499972,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "tenant×endpoint=globex /v1/rag",
+        "true_usd": 45230.522069999824,
+        "attributed_usd": 45230.522069999824,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "tenant×endpoint=umbrella /v1/chat",
+        "true_usd": 27166.757824999957,
+        "attributed_usd": 27166.757824999957,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "tenant×endpoint=globex /v1/chat",
+        "true_usd": 47986.18715999987,
+        "attributed_usd": 47986.18715999987,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "tenant×endpoint=initech /v1/chat",
+        "true_usd": 35923.513350000074,
+        "attributed_usd": 35923.513350000074,
+        "abs_err_pct": 0
+      }
+    ],
+    "cases": [
+      {
+        "case": "aborted-stream",
+        "events": 1135,
+        "engine_abs_err_pct": 0,
+        "naive_abs_err_pct": 73.77492432998577
+      },
+      {
+        "case": "batch",
+        "events": 1693,
+        "engine_abs_err_pct": 0,
+        "naive_abs_err_pct": 94.14314898446901
+      },
+      {
+        "case": "cached-tokens",
+        "events": 8957,
+        "engine_abs_err_pct": 0,
+        "naive_abs_err_pct": 29.089618301994424
+      },
+      {
+        "case": "failover",
+        "events": 424,
+        "engine_abs_err_pct": 0,
+        "naive_abs_err_pct": 231.41221630938804
+      },
+      {
+        "case": "price-v2",
+        "events": 12625,
+        "engine_abs_err_pct": 0,
+        "naive_abs_err_pct": 0.5621222948674287
+      },
+      {
+        "case": "retries",
+        "events": 1472,
+        "engine_abs_err_pct": 0,
+        "naive_abs_err_pct": 35.101852467792824
+      }
+    ]
+  },
+  "anomaly_detection": {
+    "true_cells": 37,
+    "alert_cells": 14,
+    "true_positives": 14,
+    "precision": 1,
+    "recall": 0.3783783783783784,
+    "time_to_detect_hours": {
+      "new-endpoint": 0,
+      "slow-bleed": 22,
+      "spike": 0
+    },
+    "alerts": [
+      {
+        "tenant": "globex",
+        "endpoint": "/v1/chat",
+        "hour": 491052,
+        "reason": "robust-z",
+        "value_usd": 7544.136115000006,
+        "baseline_usd": 636.3950300000001
+      },
+      {
+        "tenant": "initech",
+        "endpoint": "/v1/rag",
+        "hour": 491062,
+        "reason": "robust-z",
+        "value_usd": 2114.919644999999,
+        "baseline_usd": 516.796935
+      },
+      {
+        "tenant": "umbrella",
+        "endpoint": "/v1/fine-tune",
+        "hour": 491052,
+        "reason": "new-series",
+        "value_usd": 577.632,
+        "baseline_usd": 0
+      },
+      {
+        "tenant": "umbrella",
+        "endpoint": "/v1/fine-tune",
+        "hour": 491053,
+        "reason": "new-series",
+        "value_usd": 584.1033,
+        "baseline_usd": 0
+      },
+      {
+        "tenant": "umbrella",
+        "endpoint": "/v1/fine-tune",
+        "hour": 491054,
+        "reason": "new-series",
+        "value_usd": 577.0182,
+        "baseline_usd": 0
+      },
+      {
+        "tenant": "umbrella",
+        "endpoint": "/v1/fine-tune",
+        "hour": 491055,
+        "reason": "new-series",
+        "value_usd": 575.1405,
+        "baseline_usd": 0
+      },
+      {
+        "tenant": "umbrella",
+        "endpoint": "/v1/fine-tune",
+        "hour": 491056,
+        "reason": "new-series",
+        "value_usd": 632.9466,
+        "baseline_usd": 0
+      },
+      {
+        "tenant": "umbrella",
+        "endpoint": "/v1/fine-tune",
+        "hour": 491057,
+        "reason": "new-series",
+        "value_usd": 612.6218999999999,
+        "baseline_usd": 0
+      },
+      {
+        "tenant": "umbrella",
+        "endpoint": "/v1/fine-tune",
+        "hour": 491058,
+        "reason": "new-series",
+        "value_usd": 575.5299,
+        "baseline_usd": 0
+      },
+      {
+        "tenant": "umbrella",
+        "endpoint": "/v1/fine-tune",
+        "hour": 491059,
+        "reason": "new-series",
+        "value_usd": 579.1302,
+        "baseline_usd": 0
+      },
+      {
+        "tenant": "umbrella",
+        "endpoint": "/v1/fine-tune",
+        "hour": 491060,
+        "reason": "new-series",
+        "value_usd": 581.5557,
+        "baseline_usd": 0
+      },
+      {
+        "tenant": "umbrella",
+        "endpoint": "/v1/fine-tune",
+        "hour": 491061,
+        "reason": "new-series",
+        "value_usd": 579.0774,
+        "baseline_usd": 0
+      },
+      {
+        "tenant": "umbrella",
+        "endpoint": "/v1/fine-tune",
+        "hour": 491062,
+        "reason": "new-series",
+        "value_usd": 589.6406999999999,
+        "baseline_usd": 0
+      },
+      {
+        "tenant": "umbrella",
+        "endpoint": "/v1/fine-tune",
+        "hour": 491063,
+        "reason": "new-series",
+        "value_usd": 551.9876999999999,
+        "baseline_usd": 0
+      }
+    ]
+  }
+}

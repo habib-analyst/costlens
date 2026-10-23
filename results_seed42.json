@@ -1,0 +1,347 @@
+{
+  "seed": 42,
+  "attribution": {
+    "events": 37729,
+    "true_total_usd": 345103.2940149999,
+    "engine_total_usd": 345103.2940149999,
+    "engine_total_err_pct": 0,
+    "naive_total_usd": 367837.9832000028,
+    "naive_total_err_pct": 6.587792576681338,
+    "worst_slice": {
+      "slice": "tenant×endpoint=umbrella /v1/summarize",
+      "true_usd": 1079.2615600000004,
+      "attributed_usd": 1079.2615600000006,
+      "abs_err_pct": 2.1067522820254247e-14
+    },
+    "slices": [
+      {
+        "slice": "tenant×endpoint=umbrella /v1/summarize",
+        "true_usd": 1079.2615600000004,
+        "attributed_usd": 1079.2615600000006,
+        "abs_err_pct": 2.1067522820254247e-14
+      },
+      {
+        "slice": "endpoint=/v1/rag",
+        "true_usd": 165519.24551000004,
+        "attributed_usd": 165519.24551000004,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "tenant×endpoint=acme /v1/chat",
+        "true_usd": 61134.892475000146,
+        "attributed_usd": 61134.892475000146,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "tenant×endpoint=acme /v1/summarize",
+        "true_usd": 2531.6230999999975,
+        "attributed_usd": 2531.6230999999975,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "tenant×endpoint=umbrella /v1/rag",
+        "true_usd": 25750.35303999996,
+        "attributed_usd": 25750.35303999996,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "tenant×endpoint=acme /v1/rag",
+        "true_usd": 58136.44486500001,
+        "attributed_usd": 58136.44486500001,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "model=atlas-2",
+        "true_usd": 2094.8611749999986,
+        "attributed_usd": 2094.8611749999986,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "tenant×endpoint=initech /v1/summarize",
+        "true_usd": 1508.7996199999982,
+        "attributed_usd": 1508.7996199999982,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "tenant=initech",
+        "true_usd": 71281.43603999985,
+        "attributed_usd": 71281.43603999985,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "tenant×endpoint=globex /v1/chat",
+        "true_usd": 48703.46464499989,
+        "attributed_usd": 48703.46464499989,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "tenant=umbrella",
+        "true_usd": 54294.892800000074,
+        "attributed_usd": 54294.892800000074,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "model=atlas-1-mini",
+        "true_usd": 19356.082140000053,
+        "attributed_usd": 19356.082140000053,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "model=atlas-1",
+        "true_usd": 323652.3506999999,
+        "attributed_usd": 323652.3506999999,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "tenant×endpoint=globex /v1/summarize",
+        "true_usd": 2041.7234999999987,
+        "attributed_usd": 2041.7234999999987,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "endpoint=/v1/chat",
+        "true_usd": 172422.64072499968,
+        "attributed_usd": 172422.64072499968,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "tenant=globex",
+        "true_usd": 97724.0047349997,
+        "attributed_usd": 97724.0047349997,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "endpoint=/v1/summarize",
+        "true_usd": 7161.40778,
+        "attributed_usd": 7161.40778,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "tenant=acme",
+        "true_usd": 121802.96044000011,
+        "attributed_usd": 121802.96044000011,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "tenant×endpoint=globex /v1/rag",
+        "true_usd": 46978.816590000075,
+        "attributed_usd": 46978.816590000075,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "tenant×endpoint=umbrella /v1/chat",
+        "true_usd": 27465.27819999994,
+        "attributed_usd": 27465.27819999994,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "tenant×endpoint=initech /v1/rag",
+        "true_usd": 34653.631014999955,
+        "attributed_usd": 34653.631014999955,
+        "abs_err_pct": 0
+      },
+      {
+        "slice": "tenant×endpoint=initech /v1/chat",
+        "true_usd": 35119.00540500005,
+        "attributed_usd": 35119.00540500005,
+        "abs_err_pct": 0
+      }
+    ],
+    "cases": [
+      {
+        "case": "aborted-stream",
+        "events": 1091,
+        "engine_abs_err_pct": 0,
+        "naive_abs_err_pct": 70.1214139340239
+      },
+      {
+        "case": "batch",
+        "events": 1679,
+        "engine_abs_err_pct": 0,
+        "naive_abs_err_pct": 94.79540550111675
+      },
+      {
+        "case": "cached-tokens",
+        "events": 8993,
+        "engine_abs_err_pct": 0,
+        "naive_abs_err_pct": 28.530542420666183
+      },
+      {
+        "case": "failover",
+        "events": 454,
+        "engine_abs_err_pct": 0,
+        "naive_abs_err_pct": 228.8948252143729
+      },
+      {
+        "case": "price-v2",
+        "events": 12481,
+        "engine_abs_err_pct": 0,
+        "naive_abs_err_pct": 0.3851904814190387
+      },
+      {
+        "case": "retries",
+        "events": 1503,
+        "engine_abs_err_pct": 0,
+        "naive_abs_err_pct": 34.38226485060175
+      }
+    ]
+  },
+  "anomaly_detection": {
+    "true_cells": 37,
+    "alert_cells": 18,
+    "true_positives": 18,
+    "precision": 1,
+    "recall": 0.4864864864864865,
+    "time_to_detect_hours": {
+      "new-endpoint": 0,
+      "slow-bleed": 19,
+      "spike": 0
+    },
+    "alerts": [
+      {
+        "tenant": "globex",
+        "endpoint": "/v1/chat",
+        "hour": 491052,
+        "reason": "robust-z",
+        "value_usd": 5622.208219999995,
+        "baseline_usd": 677.09943
+      },
+      {
+        "tenant": "initech",
+        "endpoint": "/v1/rag",
+        "hour": 491059,
+        "reason": "robust-z",
+        "value_usd": 1849.4053199999998,
+        "baseline_usd": 549.4974
+      },
+      {
+        "tenant": "initech",
+        "endpoint": "/v1/rag",
+        "hour": 491060,
+        "reason": "robust-z",
+        "value_usd": 1882.1146800000006,
+        "baseline_usd": 549.4974
+      },
+      {
+        "tenant": "initech",
+        "endpoint": "/v1/rag",
+        "hour": 491061,
+        "reason": "robust-z",
+        "value_usd": 2199.011804999999,
+        "baseline_usd": 549.4974
+      },
+      {
+        "tenant": "initech",
+        "endpoint": "/v1/rag",
+        "hour": 491062,
+        "reason": "robust-z",
+        "value_usd": 2247.524879999999,
+        "baseline_usd": 573.6421949999999
+      },
+      {
+        "tenant": "initech",
+        "endpoint": "/v1/rag",
+        "hour": 491063,
+        "reason": "robust-z",
+        "value_usd": 2520.2270100000014,
+        "baseline_usd": 573.6421949999999
+      },
+      {
+        "tenant": "umbrella",
+        "endpoint": "/v1/fine-tune",
+        "hour": 491052,
+        "reason": "new-series",
+        "value_usd": 640.7709,
+        "baseline_usd": 0
+      },
+      {
+        "tenant": "umbrella",
+        "endpoint": "/v1/fine-tune",
+        "hour": 491053,
+        "reason": "new-series",
+        "value_usd": 642.6387,
+        "baseline_usd": 0
+      },
+      {
+        "tenant": "umbrella",
+        "endpoint": "/v1/fine-tune",
+        "hour": 491054,
+        "reason": "new-series",
+        "value_usd": 640.2297,
+        "baseline_usd": 0
+      },
+      {
+        "tenant": "umbrella",
+        "endpoint": "/v1/fine-tune",
+        "hour": 491055,
+        "reason": "new-series",
+        "value_usd": 571.032,
+        "baseline_usd": 0
+      },
+      {
+        "tenant": "umbrella",
+        "endpoint": "/v1/fine-tune",
+        "hour": 491056,
+        "reason": "new-series",
+        "value_usd": 605.9922,
+        "baseline_usd": 0
+      },
+      {
+        "tenant": "umbrella",
+        "endpoint": "/v1/fine-tune",
+        "hour": 491057,
+        "reason": "new-series",
+        "value_usd": 546.1895999999999,
+        "baseline_usd": 0
+      },
+      {
+        "tenant": "umbrella",
+        "endpoint": "/v1/fine-tune",
+        "hour": 491058,
+        "reason": "new-series",
+        "value_usd": 551.2914,
+        "baseline_usd": 0
+      },
+      {
+        "tenant": "umbrella",
+        "endpoint": "/v1/fine-tune",
+        "hour": 491059,
+        "reason": "new-series",
+        "value_usd": 644.5857000000001,
+        "baseline_usd": 0
+      },
+      {
+        "tenant": "umbrella",
+        "endpoint": "/v1/fine-tune",
+        "hour": 491060,
+        "reason": "new-series",
+        "value_usd": 553.3968,
+        "baseline_usd": 0
+      },
+      {
+        "tenant": "umbrella",
+        "endpoint": "/v1/fine-tune",
+        "hour": 491061,
+        "reason": "new-series",
+        "value_usd": 596.5344,
+        "baseline_usd": 0
+      },
+      {
+        "tenant": "umbrella",
+        "endpoint": "/v1/fine-tune",
+        "hour": 491062,
+        "reason": "new-series",
+        "value_usd": 631.0985999999999,
+        "baseline_usd": 0
+      },
+      {
+        "tenant": "umbrella",
+        "endpoint": "/v1/fine-tune",
+        "hour": 491063,
+        "reason": "new-series",
+        "value_usd": 539.3586,
+        "baseline_usd": 0
+      }
+    ]
+  }
+}
